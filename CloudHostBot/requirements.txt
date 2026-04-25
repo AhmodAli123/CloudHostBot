@@ -1,0 +1,22 @@
+# ╔══════════════════════════════════════════╗
+# ║   CloudHost Bot — Python Dependencies    ║
+# ╚══════════════════════════════════════════╝
+
+# Telegram Bot
+pyTelegramBotAPI==4.18.0
+
+# Web Framework (Keep-Alive)
+flask==3.0.3
+
+# System Monitoring
+psutil==5.9.8
+
+# Async Support
+aiohttp==3.9.5
+
+# Scheduling
+schedule==1.2.2
+
+# Utilities
+python-dotenv==1.0.1
+requests==2.32.3
