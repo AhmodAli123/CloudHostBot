@@ -26,7 +26,10 @@ import logging
 import threading
 
 import telebot
-from telebot import TeleBot
+from telebot import TeleBot, apihelper  # 👈 apihelper add করলাম
+
+# ✅ MUST: middleware enable (এখানে দিতে হবে)
+apihelper.ENABLE_MIDDLEWARE = True
 
 # ─────────────────────────────────────────────
 #  SETUP LOGGING
